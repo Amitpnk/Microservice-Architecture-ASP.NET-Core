@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microservice.Gateways.WebAPI.Controllers
+namespace Catalog.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
