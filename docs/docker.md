@@ -72,3 +72,6 @@ docker logs -f aspnetrun-redis
 docker exec -it aspnetrun-redis /bin/bash
 redis-cli
 
+<!-- docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build -->
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose.override.yml down
